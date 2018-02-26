@@ -1,0 +1,4 @@
+# for WiFi AP
+interface=wlan0
+dhcp-range=wlan0,192.168.44.2,192.168.44.250,12h
+listen-address=192.168.44.1

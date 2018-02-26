@@ -1,0 +1,10 @@
+[Unit]
+Description=MQTT Time Publishing Agent
+
+[Service]
+Type=oneshot
+ExecStart=/home/mqtt_time/publish_time.sh &
+
+[Install]
+WantedBy=multi-user.target
+
